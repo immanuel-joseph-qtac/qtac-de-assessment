@@ -75,7 +75,9 @@ Think of this as a "Gold layer" or information mart table — something a busine
 
 We're primarily interested in your **final table structures and the data in them** after your ingestion has run. We want to see the end result of your thinking.
 
-1. **CSV exports of your final warehouse tables** — This is the most important part. Show us what your tables look like after the data has been loaded and transformed.
+1. **CSV exports of your final warehouse tables** —— This is the most important part. Export both:
+   - Your **warehouse layer** tables (after ingestion)
+   - Your **gold layer / information mart** output (from section 4)
 2. **SQL scripts** — Your DDL and DML so we can see your approach (we won't be running these in an engine — we're reading them for logic and thought process)
 3. **A README** — covering:
    - What approach you chose and why
